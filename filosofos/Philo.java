@@ -141,6 +141,7 @@ public class Philo {
 
             if(!garfoDireita){
                 esq.soltarGarfo();
+                System.out.println("O Filósofo " + filoId + " pegou o primeiro garfo, mas não conseguiu pegar o segundo, então ele solta o primeiro.");
                 return;
             }
 
